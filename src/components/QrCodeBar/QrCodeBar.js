@@ -1,12 +1,13 @@
 import React from "react";
 import "./QrCodeBar.css";
+import Qrcode from "../../images/image-qr-code.png";
 function QrCodeBar() {
   return (
     <div className="components">
       <div className="card">
         <div>
           <div className="code">
-            <img className="qrcode" src="/images/image-qr-code.png" alt="" />
+            <img className="qrcode" src={Qrcode} alt="" />
           </div>
         </div>
 
